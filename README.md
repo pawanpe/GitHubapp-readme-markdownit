@@ -1,6 +1,12 @@
 # stress-test-README-with some edit round 100
 Testing the capability of markdown-it & 
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 ## test $ in text
 
 ## video (drag and drop to GitHub README editor)
